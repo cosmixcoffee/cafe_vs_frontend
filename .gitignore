@@ -1,0 +1,35 @@
+# 참고: https://help.github.com/articles/ignoring-files/
+
+#  1. Node.js 관련 파일 무시 (중복 제거)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#  2. 환경 변수 파일 (보안 관련)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#  3. 테스트 관련 파일 무시
+/coverage
+
+#  4. 빌드된 파일 (배포 제외)
+build/
+dist/
+.cache/
+
+#  5. 프로젝트 관련 불필요한 파일
+.DS_Store  # macOS에서 자동 생성되는 파일
+.pnp
+.pnp.js
+
+#  6. IDE 및 설정 관련 파일 (이클립스, VSCode 등)
+/.vscode/
+/.idea/
+/.settings/
+/.project
+.classpath
+
